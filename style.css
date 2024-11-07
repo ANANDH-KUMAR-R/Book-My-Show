@@ -1,0 +1,250 @@
+.bookmyshow{
+    margin: 0;padding: 0;
+}
+
+
+.header{
+    margin: 0;
+    background-color:white rgb(247, 244, 244);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    height: 80px;
+    padding: 0p 100px;
+    align-items: center;
+}
+
+.searchbox input{
+    height: 35px;
+    width: 500px;
+    border: solid 2px gray;
+    box-shadow: 0px 0px 10px .5px gray;
+    border-radius: 5px;
+    border-color: rgb(200, 198, 198);
+    outline: none;
+    position: relative;
+    right: 50px;
+    padding: 0px 20px;
+
+}
+
+.searchbox svg{
+    height: 14px;
+    width: 14px;
+    right: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.location select{
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+
+.signin button{
+    color: white;
+    background-color: rgb(230, 103, 103);
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    font-size: 18px;
+}
+
+/* ---------------------------- " navbar " --------------------------- */
+
+
+.navbar{
+    margin: 0;
+    height: 35px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 90px 0px 90px;
+}
+
+.nav1-cotainer,.nav2-cotainer,.nav3-cotainer{
+    display: flex;
+     
+    padding: 10px ; 
+}
+.nav1 a,.nav3 a{
+    color: rgb(60, 59, 59);
+    padding: 0px 10px; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+}
+
+
+/* ---------------------------- " Movie cart " --------------------------- */
+
+
+.movieplay_container{
+    height: 330px;
+    margin-top: 20px;
+    background-color: rgb(241, 241, 241);
+}
+
+.movieplay img{
+    margin-top: 10px;
+}
+.img11{
+    border-radius: 10px;
+}
+
+
+
+/* ---------------------------- " Recommend " --------------------------- */
+
+
+.Recommend>h2{
+    text-indent: 40px;
+    color: rgb(9, 1, 1);        
+    height: 80px;
+    margin-left: 140px;
+    display: inline;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+
+/* ---------------------------- " MovieCart " --------------------------- */
+
+.moviecart{
+    background-color: rgb(239, 238, 238);
+    margin-top: 10px;
+    /* width: 100%; */
+    flex-direction: row;
+    display: flex;
+    justify-content:center;
+}
+.movie1{
+width: 250px;
+}
+.movie1 img{
+    width: 225px;
+    border-radius: 10px;
+    margin-bottom: 10px
+}
+.image_cointainer>.image>img{
+width:600px;
+align-self: center;
+display: block;
+}
+
+h3{
+    display: inline;
+}
+span{
+    line-height: 30px;
+    color: rgb(131, 131, 131);
+}
+/* ---------------------------------- " image_cointainer "  ------------------------------------------------*/
+
+
+.image{
+    background-image: url(Stream.avif);
+    width: 1250px;
+    height: 100px;
+    background-position:center;
+    background-size: cover;
+    border: 1px solid white;
+    align-self: center;
+    margin-left: 140px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+
+/* ---------------------------------- " Live_Events "  ------------------------------------------------*/
+
+.Live_Events>h2{
+    display: inline;
+    margin-bottom: 50px;
+    text-indent: 80px;
+    height: 80px;
+    margin-left: 140px;  
+    color: rgb(9, 1, 1);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+/* ---------------------------- " Live_Events_cart " --------------------------- */
+
+
+.Live_Events_cart{
+    /* width: 100vw; */
+    flex-direction: row;
+    display: flex;
+    justify-content:center;
+    margin-bottom: 60px;
+}
+.Event1{
+width: 250px;
+}
+.Event1 img{
+    width: 225px;
+}
+
+
+/* ---------------------------- " permiere_container " --------------------------- */
+
+    /* premiere_image */
+.permiere_container{
+    margin: 0px;
+    background-color:rgb(31, 29, 37);
+    height: 610px;
+}
+
+.premiere_image{
+    margin-left: 140px;
+    background-image: url(PREMIERE.avif);
+    background-size: cover;
+    display: flex;
+    justify-items: end;
+    height: 100px;
+    width: 500px;
+}
+
+      /* permiere */
+.permiere>h2{
+    display: inline;
+    line-height: 50px;
+    margin-left: 140px;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.permiere>div{
+    margin-left: 140px;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+
+}
+      /* Permiere_cart */
+
+.Permiere_cart{
+    display: flex;
+    flex-direction: row;
+    margin-left: 130px;
+}
+.Permiere1 img{
+    border-radius: 20px;
+    padding: 11px;
+    margin-right: 30px;
+    display: flex;
+    height: 350px;
+    width: 200px;
+}
+.Permiere1>h3{
+    padding: 10px;
+    color: white;
+    display: inline;
+
+}
+.Permiere1>span{
+    padding: 10px;
+    color: white;
+
+}
